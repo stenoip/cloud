@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Stenoip.com</title>
+        <style>
+            #logo {
+                border: 1px solid green;
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <img id="logo" src="stenoip_company_logo.png">
+        <h1 id="ani-text">This is Stenoip.com (Under Construction)</h1>
+        <p id="ani-text">In the meantime, please use our other sites:
+          <hr>
+          <a href="https://stenoip.github.io/oodles">Oodles Metasearch</a>, 
+          <a href="https://stenoip.github.io/ringzauber-site">Ringzauber</a> and <a href="https://stenoip.github.io/praterich">Praterich A.I</a></p>
+      
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+        $("#logo").hide();
+        $("#ani-text").hide();
+        $("#logo").slideDown(1000, function() {
+            $("#ani-text").fadeIn();
+        });
+        
+            
+        </script>
+        
+    </body>
+</html>
